@@ -1,5 +1,12 @@
 body {
-  background-color: #3a275f;
+  /* background-color: #3a275f; */
+  background-image: url("./bac.jpg");
+  /* Full height */
+  /* height: 100%; */
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .login {
@@ -11,28 +18,54 @@ body {
   text-align: center;
   border-radius: 20px;
   box-shadow: 5px 5px black;
-  padding-bottom: 2%;
+  padding-bottom: 1%;
   padding-top: 2%;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.final {
+  background-color: white;
+  margin: auto;
+  width: 50%;
+  margin-top: 1%;
+  border: solid 1px black;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 5px 5px black;
+  padding-bottom: 1%;
+  padding-top: 1%;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
+
 .logo {
   margin: auto;
   text-align: center;
   width: 50%;
   margin-top: 1%;
 }
-.video {
+.imglogo {
   box-shadow: 5px 5px black;
+  border-radius: 5%;
 }
 .error {
   margin: auto;
   width: 50%;
-  margin-top: 5%;
-  margin-left: 50%;
-  color: yellow;
+  color: red;
+  font-size: 25px;
+  font-weight: bold;
 }
 .login input {
   margin: 2%;
   border: none;
   border-bottom: 1px solid black;
+}
+
+.i {
+  margin: auto;
+  width: 50%;
+  margin-top: 1%;
+}
+.i img {
+  text-align: center;
+  box-shadow: 5px 5px black;
 }

@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Level 1</title>
+        <title>Level 2</title>
 
         <link rel="stylesheet"
             href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -16,46 +16,44 @@
         <link rel="stylesheet" type="text/css" href="style.css">
         <script type="text/javascript">
             function validations(){
-            if(document.getElementById('kidney').checked) {
+            if(document.getElementById('day').checked) {
                 return true;
-            }else  {
-                document.getElementById("err").innerHTML="Socho beta";
+            }else {
+                document.getElementById("err").innerHTML="Naah Ji Galat";
                 return false;
               }
-            }
-            
+            }            
         </script>
     </head>
     <body>
         <div class="login">
-            <h2>Level 1</h2>
-            <img src="./d.jpg" alt="" width="300" height="200"
+            <h2>Level 2</h2>
+            <img src="./f.jpeg" alt="" width="300" height="200"
                 style="border-radius: 20px; box-shadow: 5px 5px black">
             <br>
             <br>
 
-            <h3> Since you are 21 now, will you buy us daaru ?</h3>
-            <form action="puzzle2.html" method="POST" name="login"
+            <h3>When was the last time you and Mrunal fought and made up?</h3>
+            <form action="puzzle3.html" method="POST" name="login"
                 onsubmit="return validations()">
-                <input type="radio" id="kidney" name="ans" value="kidney"><label
-                    for="kidney">
-                    Kidney vikavi lagli tari chalel, pn daaru
-                    denar
+                <input type="radio" id="never" name="ans" value="never"><label
+                    for="never">
+                    We never fought
                 </label>
                 <br>
-                <input type="radio" id="hell" name="ans" value="hell">
-                <label for="hell">
-                    Hell Yes!
+                <input type="radio" id="school" name="ans" value="school">
+                <label for="school">
+                    On the ground in school
                 </label>
                 <br>
-                <input type="radio" id="obvio" name="ans" value="obvio">
-                <label for="obvio">
-                    Obviously yes
+                <input type="radio" id="text" name="ans" value="text">
+                <label for="text">
+                    Over text
                 </label>
                 <br>
-                <input type="radio" id="baat" name="ans" value="baat">
-                <label for="baat">
-                    Ye bhi koyi poochneki baat hai, yes
+                <input type="radio" id="day" name="ans" value="day">
+                <label for="day">
+                    Friendship Day
                 </label>
                 <br>
                 <input type="submit" name="start" class="btn btn-dark"

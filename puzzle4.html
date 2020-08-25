@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Level 1</title>
+        <title>Level 4</title>
 
         <link rel="stylesheet"
             href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -16,46 +16,44 @@
         <link rel="stylesheet" type="text/css" href="style.css">
         <script type="text/javascript">
             function validations(){
-            if(document.getElementById('kidney').checked) {
+            if(document.getElementById('Garden').checked) {
                 return true;
-            }else  {
-                document.getElementById("err").innerHTML="Socho beta";
+            }else {
+                document.getElementById("err").innerHTML="Chukiche! Bhai yeh moon hai!";
                 return false;
               }
-            }
-            
+            }            
         </script>
     </head>
     <body>
         <div class="login">
-            <h2>Level 1</h2>
-            <img src="./d.jpg" alt="" width="300" height="200"
+            <h2>Level 4</h2>
+            <img src="./m.jpeg" alt="" width="300" height="200"
                 style="border-radius: 20px; box-shadow: 5px 5px black">
             <br>
             <br>
 
-            <h3> Since you are 21 now, will you buy us daaru ?</h3>
-            <form action="puzzle2.html" method="POST" name="login"
+            <h3>Where did you see the sun at 7:30 in the afternoon?</h3>
+            <form action="puzzle6.html" method="POST" name="login"
                 onsubmit="return validations()">
-                <input type="radio" id="kidney" name="ans" value="kidney"><label
-                    for="kidney">
-                    Kidney vikavi lagli tari chalel, pn daaru
-                    denar
+                <input type="radio" id="hill" name="ans" value="hill"><label
+                    for="hill">
+                    Taljai Hill
                 </label>
                 <br>
-                <input type="radio" id="hell" name="ans" value="hell">
-                <label for="hell">
-                    Hell Yes!
+                <input type="radio" id="Garden" name="ans" value="Garden">
+                <label for="Garden">
+                    Taljai Garden
                 </label>
                 <br>
-                <input type="radio" id="obvio" name="ans" value="obvio">
-                <label for="obvio">
-                    Obviously yes
+                <input type="radio" id="drunk" name="ans" value="drunk">
+                <label for="drunk">
+                    Pata nahi I was drunk
                 </label>
                 <br>
-                <input type="radio" id="baat" name="ans" value="baat">
-                <label for="baat">
-                    Ye bhi koyi poochneki baat hai, yes
+                <input type="radio" id="taljai" name="ans" value="taljai">
+                <label for="taljai">
+                    Taljai
                 </label>
                 <br>
                 <input type="submit" name="start" class="btn btn-dark"
