@@ -29,7 +29,7 @@
     <body>
         <div class="login">
             <h2>Level 1</h2>
-            <img src="./d.jpg" alt="" width="300" height="200"
+            <img src="./d.jpg" alt="" height="200" class="image"
                 style="border-radius: 20px; box-shadow: 5px 5px black">
             <br>
             <br>
@@ -38,9 +38,7 @@
             <form action="puzzle2.html" name="login"
                 onsubmit="return validations()">
                 <input type="radio" id="kidney" name="ans" value="kidney"><label
-                    for="kidney">
-                    Kidney vikavi lagli tari chalel, pn daaru
-                    denar
+                    for="kidney">Kidney vikavi lagli tari chalel, pn daaru denar
                 </label>
                 <br>
                 <input type="radio" id="hell" name="ans" value="hell">
@@ -58,7 +56,8 @@
                     Ye bhi koyi poochneki baat hai, yes
                 </label>
                 <br>
-                <input type="submit" name="start" class="btn btn-dark"
+                <input type="submit" name="start" style="margin-left: 30%;"
+                    class="btn btn-dark"
                     value="Submit" onclick="validations">
 
             </form>
