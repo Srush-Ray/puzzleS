@@ -4,9 +4,10 @@ body {
   /* Full height */
   /* height: 100%; */
   /* Center and scale the image nicely */
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .login {
@@ -56,6 +57,7 @@ body {
 }
 .login input {
   margin: 2%;
+  width: 30%;
   border: none;
   border-bottom: 1px solid black;
 }
