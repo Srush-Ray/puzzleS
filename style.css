@@ -1,0 +1,23 @@
+body {
+  background-color: #3a275f;
+}
+
+.login {
+  background-color: white;
+  margin: auto;
+  width: 50%;
+  margin-top: 10%;
+  border: solid 1px black;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 5px 5px black;
+  padding-bottom: 2%;
+  padding-top: 2%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.login input {
+  margin: 2%;
+  border: none;
+  border-bottom: 1px solid black;
+}
