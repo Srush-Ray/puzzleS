@@ -36,26 +36,28 @@
             <h3>Choose Your character</h3>
             <form action="puzzle6.html" name="login"
                 onsubmit="return validations()">
-                <input type="radio" id="h" name="ans" value="h"><label
-                    for="h">
-                    Hermione
-                </label>
-                <br>
-                <input type="radio" id="Ghoda" name="ans" value="Ghoda">
-                <label for="Ghoda">
-                    Ghoda
-                </label>
-                <br>
-                <input type="radio" id="Grandma" name="ans" value="Grandma">
-                <label for="Grandma">
-                    Grandma
-                </label>
-                <br>
-                <input type="radio" id="no" name="ans" value="no">
-                <label for="no">
-                    No one
-                </label>
-                <br>
+                <div class="opt">
+                    <input type="radio" id="h" name="ans" value="h"><label
+                        for="h">
+                        Hermione
+                    </label>
+                    <br>
+                    <input type="radio" id="Ghoda" name="ans" value="Ghoda">
+                    <label for="Ghoda">
+                        Ghoda
+                    </label>
+                    <br>
+                    <input type="radio" id="Grandma" name="ans" value="Grandma">
+                    <label for="Grandma">
+                        Grandma
+                    </label>
+                    <br>
+                    <input type="radio" id="no" name="ans" value="no">
+                    <label for="no">
+                        No one
+                    </label>
+                    <br>
+                </div>
                 <input type="submit" name="start" style="margin-left: 30%;"
                     class="btn btn-dark"
                     value="Submit" onclick="validations">

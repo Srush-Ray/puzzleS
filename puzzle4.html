@@ -36,26 +36,28 @@
             <h3>Where did you see the sun at 7:30 in the afternoon?</h3>
             <form action="puzzle5.html" name="login"
                 onsubmit="return validations()">
-                <input type="radio" id="hill" name="ans" value="hill"><label
-                    for="hill">
-                    Taljai Hill
-                </label>
-                <br>
-                <input type="radio" id="Garden" name="ans" value="Garden">
-                <label for="Garden">
-                    Taljai Garden
-                </label>
-                <br>
-                <input type="radio" id="drunk" name="ans" value="drunk">
-                <label for="drunk">
-                    Pata nahi I was drunk
-                </label>
-                <br>
-                <input type="radio" id="taljai" name="ans" value="taljai">
-                <label for="taljai">
-                    Taljai
-                </label>
-                <br>
+                <div class="opt">
+                    <input type="radio" id="hill" name="ans" value="hill"><label
+                        for="hill">
+                        Taljai Hill
+                    </label>
+                    <br>
+                    <input type="radio" id="Garden" name="ans" value="Garden">
+                    <label for="Garden">
+                        Taljai Garden
+                    </label>
+                    <br>
+                    <input type="radio" id="drunk" name="ans" value="drunk">
+                    <label for="drunk">
+                        Pata nahi I was drunk
+                    </label>
+                    <br>
+                    <input type="radio" id="taljai" name="ans" value="taljai">
+                    <label for="taljai">
+                        Taljai
+                    </label>
+                    <br>
+                </div>
                 <input type="submit" name="start" class="btn btn-dark"
                     style="margin-left: 30%;"
                     value="Submit" onclick="validations">

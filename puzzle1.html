@@ -37,25 +37,28 @@
             <h3> Since you are 21 now, will you buy us daaru ?</h3>
             <form action="puzzle2.html" name="login"
                 onsubmit="return validations()">
-                <input type="radio" id="kidney" name="ans" value="kidney"><label
-                    for="kidney">Kidney vikavi lagli tari chalel, pn daaru denar
-                </label>
-                <br>
-                <input type="radio" id="hell" name="ans" value="hell">
-                <label for="hell">
-                    Hell Yes!
-                </label>
-                <br>
-                <input type="radio" id="obvio" name="ans" value="obvio">
-                <label for="obvio">
-                    Obviously yes
-                </label>
-                <br>
-                <input type="radio" id="baat" name="ans" value="baat">
-                <label for="baat">
-                    Ye bhi koyi poochneki baat hai, yes
-                </label>
-                <br>
+                <div class="opt">
+                    <input type="radio" id="kidney" name="ans" value="kidney"><label
+                        for="kidney">Kidney vikavi lagli tari chalel, pn daaru
+                        denar
+                    </label>
+                    <br>
+                    <input type="radio" id="hell" name="ans" value="hell">
+                    <label for="hell">
+                        Hell Yes!
+                    </label>
+                    <br>
+                    <input type="radio" id="obvio" name="ans" value="obvio">
+                    <label for="obvio">
+                        Obviously yes
+                    </label>
+                    <br>
+                    <input type="radio" id="baat" name="ans" value="baat">
+                    <label for="baat">
+                        Ye bhi koyi poochneki baat hai, yes
+                    </label>
+                    <br>
+                </div>
                 <input type="submit" name="start" style="margin-left: 30%;"
                     class="btn btn-dark"
                     value="Submit" onclick="validations">

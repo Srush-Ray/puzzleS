@@ -36,26 +36,29 @@
             <h3>When was the last time you and Mrunal fought and made up?</h3>
             <form action="puzzle3.html" name="login"
                 onsubmit="return validations()">
-                <input type="radio" id="never" name="ans" value="never"><label
-                    for="never">
-                    We never fought
-                </label>
-                <br>
-                <input type="radio" id="school" name="ans" value="school">
-                <label for="school">
-                    On the ground in school
-                </label>
-                <br>
-                <input type="radio" id="text" name="ans" value="text">
-                <label for="text">
-                    Over text
-                </label>
-                <br>
-                <input type="radio" id="day" name="ans" value="day">
-                <label for="day">
-                    Friendship Day
-                </label>
-                <br>
+                <div class="opt">
+
+                    <input type="radio" id="never" name="ans" value="never"><label
+                        for="never">
+                        We never fought
+                    </label>
+                    <br>
+                    <input type="radio" id="school" name="ans" value="school">
+                    <label for="school">
+                        On the ground in school
+                    </label>
+                    <br>
+                    <input type="radio" id="text" name="ans" value="text">
+                    <label for="text">
+                        Over text
+                    </label>
+                    <br>
+                    <input type="radio" id="day" name="ans" value="day">
+                    <label for="day">
+                        Friendship Day
+                    </label>
+                    <br>
+                </div>
                 <input type="submit" name="start" style="margin-left: 30%;"
                     class="btn btn-dark"
                     value="Submit" onclick="validations">

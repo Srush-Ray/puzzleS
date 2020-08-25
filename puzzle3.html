@@ -36,26 +36,28 @@
             <h3>Where did Mrunal hide the first ever gift I gave you ?</h3>
             <form action="puzzle4.html" name="login"
                 onsubmit="return validations()">
-                <input type="radio" id="books" name="ans" value="books"><label
-                    for="books">
-                    Under the books
-                </label>
-                <br>
-                <input type="radio" id="pouch" name="ans" value="pouch">
-                <label for="pouch">
-                    In your pouch
-                </label>
-                <br>
-                <input type="radio" id="deliver" name="ans" value="deliver">
-                <label for="deliver">
-                    Gave it to someone to deliver it to you
-                </label>
-                <br>
-                <input type="radio" id="desk" name="ans" value="desk">
-                <label for="desk">
-                    In the desk
-                </label>
-                <br>
+                <div class="opt">
+                    <input type="radio" id="books" name="ans" value="books"><label
+                        for="books">
+                        Under the books
+                    </label>
+                    <br>
+                    <input type="radio" id="pouch" name="ans" value="pouch">
+                    <label for="pouch">
+                        In your pouch
+                    </label>
+                    <br>
+                    <input type="radio" id="deliver" name="ans" value="deliver">
+                    <label for="deliver">
+                        Gave it to someone to deliver it to you
+                    </label>
+                    <br>
+                    <input type="radio" id="desk" name="ans" value="desk">
+                    <label for="desk">
+                        In the desk
+                    </label>
+                    <br>
+                </div>
                 <input type="submit" name="start" style="margin-left: 30%;"
                     class="btn btn-dark"
                     value="Submit" onclick="validations">
