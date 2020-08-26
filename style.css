@@ -46,6 +46,13 @@ body {
 .end {
   width: 100%;
 }
+.end1 {
+  width: 65%;
+  margin-top: 5%;
+  margin-left: 15%;
+  height: 70%;
+}
+
 .final {
   background-color: white;
   margin: auto;
